@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "pretest": "./node_modules/.bin/eslint .",
-    "test": "./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
+    "test": "ARPINUM_TOOLBOX__LOG_LEVEL=OFF ./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
