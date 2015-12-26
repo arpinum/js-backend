@@ -1,7 +1,7 @@
 {
-  "name": "@arpinum/toolbox",
+  "name": "@arpinum/backend",
   "version": "0.0.1",
-  "description": "JavaScript toolbox for backend projects",
+  "description": "Base modules for backend applications",
   "main": "index.js",
   "files": [
     "index.js",
@@ -9,10 +9,11 @@
   ],
   "scripts": {
     "pretest": "./node_modules/.bin/eslint .",
-    "test": "ARPINUM_TOOLBOX__LOG_LEVEL=OFF ./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
+    "test": "ARPINUM_BACKEND__LOG_LEVEL=OFF ./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
+  "repository": "arpinum-oss/backend",
   "keywords": [
     "Arpinum",
     "Tools",
