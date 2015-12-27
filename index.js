@@ -4,6 +4,8 @@ module.exports = {
   BaseCommand: require('./lib/command/BaseCommand'),
   CommandBus: require('./lib/command/CommandBus'),
 
+  MongoDatabase: require('./lib/database/MongoDatabase'),
+
   ConflictingEntityError: require('./lib/domain/errors/ConflictingEntityError'),
   EntityNotFoundError: require('./lib/domain/errors/EntityNotFoundError'),
   BaseRepository: require('./lib/domain/repository/BaseRepository'),
