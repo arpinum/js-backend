@@ -12,9 +12,9 @@ module.exports = {
   FakeResponse: require('./lib/test/FakeResponse'),
   MemoryRepository: require('./lib/test/MemoryRepository'),
 
-  FunctionalError: require('./lib/utils/errors/FunctionalError'),
-  TechnicalError: require('./lib/utils/errors/TechnicalError'),
-  LoggerFactory: require('./lib/utils/LoggerFactory'),
+  FunctionalError: require('./lib/tools/errors/FunctionalError'),
+  TechnicalError: require('./lib/tools/errors/TechnicalError'),
+  LoggerFactory: require('./lib/tools/LoggerFactory'),
 
   ClientError: require('./lib/web/errors/ClientError'),
   ConflictingResourceError: require('./lib/web/errors/ConflictingResourceError'),
