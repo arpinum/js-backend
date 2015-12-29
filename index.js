@@ -1,14 +1,15 @@
 'use strict';
 
 module.exports = {
-  BaseCommand: require('./lib/command/BaseCommand'),
-  CommandBus: require('./lib/command/CommandBus'),
-
   MongoDatabase: require('./lib/database/MongoDatabase'),
 
-  ConflictingEntityError: require('./lib/domain/errors/ConflictingEntityError'),
-  EntityNotFoundError: require('./lib/domain/errors/EntityNotFoundError'),
-  BaseRepository: require('./lib/domain/repository/BaseRepository'),
+  CommandBus: require('./lib/ddd/buses/CommandQueryBus'),
+  QueryBus: require('./lib/ddd/buses/CommandQueryBus'),
+  EventBus: require('./lib/ddd/buses/EventBus'),
+  ConflictingEntityError: require('./lib/ddd/errors/ConflictingEntityError'),
+  EntityNotFoundError: require('./lib/ddd/errors/EntityNotFoundError'),
+  BaseRepository: require('./lib/ddd/repository/BaseRepository'),
+  BaseCommand: require('./lib/ddd/command/BaseCommand'),
 
   FakeApplication: require('./lib/test/FakeApplication'),
   FakeResponse: require('./lib/test/FakeResponse'),
