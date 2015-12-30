@@ -11,8 +11,8 @@ module.exports = {
   BaseRepository: require('./lib/ddd/repository/BaseRepository'),
   RepositoryInitializer: require('./lib/ddd/repository/RepositoryInitializer'),
 
-  BaseCommand: require('./lib/ddd/command/BaseCommand'),
-  CommandInitializer: require('./lib/ddd/command/CommandInitializer'),
+  BaseCommandHandler: require('./lib/ddd/command/BaseCommandHandler'),
+  CommandHandlerInitializer: require('./lib/ddd/command/CommandHandlerInitializer'),
 
   FakeApplication: require('./lib/test/FakeApplication'),
   FakeResponse: require('./lib/test/FakeResponse'),
