@@ -11,6 +11,7 @@ module.exports = {
   BaseRepository: require('./lib/ddd/repository/BaseRepository'),
   RepositoryInitializer: require('./lib/ddd/repository/RepositoryInitializer'),
   CommandHandlerInitializer: require('./lib/ddd/command/CommandHandlerInitializer'),
+  EventHandlerInitializer: require('./lib/ddd/event/EventHandlerInitializer'),
   QueriedObjectNotFoundError: require('./lib/ddd/query/QueriedObjectNotFoundError'),
   QueryHandlerInitializer: require('./lib/ddd/query/QueryHandlerInitializer'),
   QueryProcessor: require('./lib/ddd/query/QueryProcessor'),
