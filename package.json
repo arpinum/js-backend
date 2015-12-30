@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "pretest": "./node_modules/.bin/eslint .",
-    "test": "ARPINUM_BACKEND__LOG_LEVEL=OFF ./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
+    "test": "ARPINUM_BACKEND__LOG_LEVEL=alert ./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
     "tdd": "watch --wait 1 \"npm test\" lib",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
@@ -40,10 +40,10 @@
     "bluebird": "^3.1.1",
     "glob": "^6.0.3",
     "lodash": "^3.10.1",
-    "log4js": "^0.6.29",
     "mongodb": "^2.1.2",
     "node-uuid": "^1.4.7",
     "schema-inspector": "^1.6.2",
-    "underscore.string": "^3.2.2"
+    "underscore.string": "^3.2.2",
+    "winston": "^2.1.1"
   }
 }
