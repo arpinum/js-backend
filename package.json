@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "bluebird": "^3.1.1",
+    "glob": "^6.0.3",
     "lodash": "^3.10.1",
     "log4js": "^0.6.29",
     "mongodb": "^2.1.2",
