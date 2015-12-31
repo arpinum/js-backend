@@ -25,6 +25,7 @@ module.exports = {
   FunctionalError: require('./lib/tools/error/FunctionalError'),
   TechnicalError: require('./lib/tools/error/TechnicalError'),
   LoggerFactory: require('./lib/tools/LoggerFactory'),
+  uuid: require('./lib/tools/uuid'),
 
   ClientError: require('./lib/web/error/ClientError'),
   ConflictingResourceError: require('./lib/web/error/ConflictingResourceError'),
@@ -32,8 +33,8 @@ module.exports = {
   ServerError: require('./lib/web/error/ServerError'),
   UnauthorizedError: require('./lib/web/error/UnauthorizedError'),
   WebError: require('./lib/web/error/WebError'),
-
   UnhandledErrorMiddleware: require('./lib/web/middleware/UnhandledErrorMiddleware'),
   ResourceInitializer: require('./lib/web/resource/ResourceInitializer'),
+  TokenService: require('./lib/web/security/TokenService'),
   BodyValidator: require('./lib/web/validation/BodyValidator')
 };
