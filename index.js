@@ -20,7 +20,7 @@ module.exports = {
   FakeApplication: require('./lib/test/FakeApplication'),
   FakeResponse: require('./lib/test/FakeResponse'),
   MemoryDatabase: require('./lib/test/MemoryDatabase'),
-  MemoryRepository: require('./lib/test/MemoryRepository'),
+  repositoryInMemory: require('./lib/test/repositoryInMemory'),
 
   FunctionalError: require('./lib/tools/error/FunctionalError'),
   TechnicalError: require('./lib/tools/error/TechnicalError'),
