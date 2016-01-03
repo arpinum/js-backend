@@ -13,15 +13,14 @@ module.exports = {
   CommandHandlerInitializer: require('./lib/ddd/command/CommandHandlerInitializer'),
   EventHandlerInitializer: require('./lib/ddd/event/EventHandlerInitializer'),
   EventStore: require('./lib/ddd/event/EventStore'),
+  ProjectionInitializer: require('./lib/ddd/projection/ProjectionInitializer'),
   QueriedObjectNotFoundError: require('./lib/ddd/query/QueriedObjectNotFoundError'),
   QueryHandlerInitializer: require('./lib/ddd/query/QueryHandlerInitializer'),
-  QueryProcessor: require('./lib/ddd/query/QueryProcessor'),
 
   FakeApplication: require('./lib/test/FakeApplication'),
   FakeResponse: require('./lib/test/FakeResponse'),
   MemoryDatabase: require('./lib/test/MemoryDatabase'),
   MemoryRepository: require('./lib/test/MemoryRepository'),
-  MemoryQueryProcessor: require('./lib/test/MemoryQueryProcessor'),
 
   FunctionalError: require('./lib/tools/error/FunctionalError'),
   TechnicalError: require('./lib/tools/error/TechnicalError'),
