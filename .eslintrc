@@ -1,6 +1,3 @@
 {
-  "extends": "arpinum/configurations/backend",
-  "rules": {
-    "indent": 0
-  }
+  "extends": "arpinum/configurations/backend"
 }

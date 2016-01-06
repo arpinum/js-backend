@@ -30,7 +30,7 @@
     "chai": "^3.4.1",
     "chai-as-promised": "^5.2.0",
     "eslint": "^1.10.3",
-    "eslint-config-arpinum": "^1.0.0",
+    "eslint-config-arpinum": "^1.2.0",
     "mocha": "^2.3.4",
     "sinon-chai": "^2.8.0",
     "watch": "^0.17.1"
