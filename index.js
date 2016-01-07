@@ -17,6 +17,8 @@ module.exports = {
   QueriedObjectNotFoundError: require('./lib/ddd/query/QueriedObjectNotFoundError'),
   QueryHandlerInitializer: require('./lib/ddd/query/QueryHandlerInitializer'),
 
+  PasswordService: require('./lib/security/PasswordService'),
+
   FakeApplication: require('./lib/test/FakeApplication'),
   FakeResponse: require('./lib/test/FakeResponse'),
   MemoryDatabase: require('./lib/test/MemoryDatabase'),
