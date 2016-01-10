@@ -13,6 +13,7 @@ module.exports = {
   CommandHandlerInitializer: require('./lib/ddd/command/CommandHandlerInitializer'),
   EventHandlerInitializer: require('./lib/ddd/event/EventHandlerInitializer'),
   EventStore: require('./lib/ddd/event/EventStore'),
+  Event: require('./lib/ddd/event/Event'),
   ProjectionInitializer: require('./lib/ddd/projection/ProjectionInitializer'),
   QueriedObjectNotFoundError: require('./lib/ddd/query/QueriedObjectNotFoundError'),
   QueryHandlerInitializer: require('./lib/ddd/query/QueryHandlerInitializer'),
