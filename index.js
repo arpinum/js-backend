@@ -6,7 +6,6 @@ module.exports = {
   CommandBus: require('./lib/ddd/bus/CommandQueryBus'),
   QueryBus: require('./lib/ddd/bus/CommandQueryBus'),
   EventBus: require('./lib/ddd/bus/EventBus'),
-  ConflictingEntityError: require('./lib/ddd/error/ConflictingEntityError'),
   EntityNotFoundError: require('./lib/ddd/error/EntityNotFoundError'),
   BaseRepository: require('./lib/ddd/repository/BaseRepository'),
   RepositoryInitializer: require('./lib/ddd/repository/RepositoryInitializer'),
@@ -31,7 +30,6 @@ module.exports = {
   uuid: require('./lib/tools/uuid'),
 
   ClientError: require('./lib/web/error/ClientError'),
-  ConflictingResourceError: require('./lib/web/error/ConflictingResourceError'),
   ResourceNotFoundError: require('./lib/web/error/ResourceNotFoundError'),
   ServerError: require('./lib/web/error/ServerError'),
   UnauthorizedError: require('./lib/web/error/UnauthorizedError'),
