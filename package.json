@@ -45,7 +45,6 @@
     "node-uuid": "^1.4.7",
     "schema-inspector": "^1.6.2",
     "sinon": "^1.17.2",
-    "underscore.string": "^3.2.2",
     "winston": "^2.1.1"
   }
 }
