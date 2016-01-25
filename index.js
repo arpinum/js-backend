@@ -38,6 +38,5 @@ module.exports = {
   UnhandledErrorMiddleware: require('./lib/web/middleware/UnhandledErrorMiddleware'),
   ResourceInitializer: require('./lib/web/resource/ResourceInitializer'),
   HeadersParser: require('./lib/web/HeadersParser'),
-  TokenService: require('./lib/web/security/TokenService'),
-  BodyValidator: require('./lib/web/validation/BodyValidator')
+  TokenService: require('./lib/web/security/TokenService')
 };
