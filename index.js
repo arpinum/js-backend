@@ -1,8 +1,6 @@
 'use strict';
 
 module.exports = {
-  MongoDatabase: require('./lib/database/MongoDatabase'),
-
   CommandBus: require('./lib/ddd/bus/CommandQueryBus'),
   QueryBus: require('./lib/ddd/bus/CommandQueryBus'),
   EventBus: require('./lib/ddd/bus/EventBus'),
