@@ -28,6 +28,7 @@ module.exports = {
   TechnicalError: require('./lib/tools/error/TechnicalError'),
   LoggerFactory: require('./lib/tools/LoggerFactory'),
   uuid: require('./lib/tools/uuid'),
+  InputsSanitizer: require('./lib/tools/InputsSanitizer'),
 
   ClientError: require('./lib/web/error/ClientError'),
   ResourceNotFoundError: require('./lib/web/error/ResourceNotFoundError'),
