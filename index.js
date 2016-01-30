@@ -33,7 +33,6 @@ module.exports = {
   UnauthorizedError: require('./lib/web/error/UnauthorizedError'),
   WebError: require('./lib/web/error/WebError'),
   UnhandledErrorMiddleware: require('./lib/web/middleware/UnhandledErrorMiddleware'),
-  ResourceInitializer: require('./lib/web/resource/ResourceInitializer'),
   HeadersParser: require('./lib/web/HeadersParser'),
   TokenService: require('./lib/web/security/TokenService')
 };
