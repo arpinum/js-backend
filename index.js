@@ -5,6 +5,7 @@ module.exports = {
   QueryBus: require('./lib/ddd/bus/CommandQueryBus'),
   EventBus: require('./lib/ddd/bus/EventBus'),
   EntityNotFoundError: require('./lib/ddd/error/EntityNotFoundError'),
+  AggregateRoot: require('./lib/ddd/object/AggregateRoot'),
   BaseRepository: require('./lib/ddd/repository/BaseRepository'),
   RepositoryInitializer: require('./lib/ddd/repository/RepositoryInitializer'),
   CommandHandlerInitializer: require('./lib/ddd/command/CommandHandlerInitializer'),
