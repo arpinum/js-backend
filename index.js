@@ -13,6 +13,7 @@ module.exports = {
   EventStore: require('./lib/ddd/event/EventStore'),
   Event: require('./lib/ddd/event/Event'),
   ProjectionInitializer: require('./lib/ddd/projection/ProjectionInitializer'),
+  Projection: require('./lib/ddd/projection/Projection'),
   QueriedObjectNotFoundError: require('./lib/ddd/query/QueriedObjectNotFoundError'),
   QueryHandlerInitializer: require('./lib/ddd/query/QueryHandlerInitializer'),
 
