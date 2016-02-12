@@ -36,5 +36,6 @@ module.exports = {
   WebError: require('./lib/web/error/WebError'),
   UnhandledErrorMiddleware: require('./lib/web/middleware/UnhandledErrorMiddleware'),
   HeadersParser: require('./lib/web/HeadersParser'),
-  TokenService: require('./lib/web/security/TokenService')
+  TokenService: require('./lib/web/security/TokenService'),
+  RouteBuilder: require('./lib/web/RouteBuilder')
 };
