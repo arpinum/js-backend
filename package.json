@@ -1,6 +1,6 @@
 {
   "name": "@arpinum/backend",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "description": "Base modules for backend applications",
   "main": "index.js",
   "files": [
