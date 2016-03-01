@@ -16,6 +16,8 @@ module.exports = {
   Projection: require('./lib/ddd/projection/Projection'),
   QueriedObjectNotFoundError: require('./lib/ddd/query/QueriedObjectNotFoundError'),
   QueryHandlerInitializer: require('./lib/ddd/query/QueryHandlerInitializer'),
+  SagaHandler: require('./lib/ddd/saga/SagaHandler'),
+  SagaHandlerInitializer: require('./lib/ddd/saga/SagaHandlerInitializer'),
 
   PasswordService: require('./lib/security/PasswordService'),
 
