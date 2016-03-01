@@ -28,6 +28,7 @@ module.exports = {
   TechnicalError: require('./lib/tools/error/TechnicalError'),
   LoggerFactory: require('./lib/tools/LoggerFactory'),
   uuid: require('./lib/tools/uuid'),
+  ObjectMap: require('./lib/tools/ObjectMap'),
 
   ClientError: require('./lib/web/error/ClientError'),
   ResourceNotFoundError: require('./lib/web/error/ResourceNotFoundError'),
