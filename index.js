@@ -1,6 +1,8 @@
 'use strict';
 
 module.exports = {
+  QueueManager: require('./lib/concurrency/QueueManager'),
+
   CommandBus: require('./lib/ddd/bus/CommandQueryBus'),
   QueryBus: require('./lib/ddd/bus/CommandQueryBus'),
   EventBus: require('./lib/ddd/bus/EventBus'),
