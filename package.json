@@ -14,7 +14,7 @@
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
-  "repository": "arpinum-oss/js-backend",
+  "repository": "arpinum/js-backend",
   "keywords": [
     "Arpinum",
     "Tools",
