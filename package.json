@@ -29,7 +29,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
-    "eslint": "^2.6.0",
+    "eslint": "^2.7.0",
     "eslint-config-arpinum": "^3.0.0",
     "mocha": "^2.4.5",
     "sinon-as-promised": "^4.0.0",
@@ -41,7 +41,8 @@
     "bluebird": "^3.3.4",
     "glob": "^7.0.3",
     "jsonwebtoken": "^5.7.0",
-    "lodash": "^4.8.1",
+    "lodash": "^4.8.2",
+    "lookalike": "^1.0.0",
     "node-uuid": "^1.4.7",
     "schema-inspector": "^1.6.2",
     "sinon": "^1.17.3",
