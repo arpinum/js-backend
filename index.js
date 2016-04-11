@@ -31,6 +31,7 @@ module.exports = {
   FunctionalError: require('./lib/tools/error/FunctionalError'),
   TechnicalError: require('./lib/tools/error/TechnicalError'),
   LoggerFactory: require('./lib/tools/LoggerFactory'),
+  Translator: require('./lib/tools/Translator'),
   uuid: require('./lib/tools/uuid'),
   ObjectMap: require('./lib/tools/ObjectMap'),
 
