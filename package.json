@@ -29,7 +29,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
-    "eslint": "^2.7.0",
+    "eslint": "^2.8.0",
     "eslint-config-arpinum": "^3.0.0",
     "mocha": "^2.4.5",
     "sinon-as-promised": "^4.0.0",
@@ -37,11 +37,11 @@
     "watch": "^0.17.1"
   },
   "dependencies": {
-    "bcrypt": "^0.8.5",
-    "bluebird": "^3.3.4",
+    "bcrypt": "^0.8.6",
+    "bluebird": "^3.3.5",
     "glob": "^7.0.3",
     "jsonwebtoken": "^5.7.0",
-    "lodash": "^4.8.2",
+    "lodash": "^4.11.1",
     "lookalike": "^1.0.0",
     "node-uuid": "^1.4.7",
     "schema-inspector": "^1.6.2",
