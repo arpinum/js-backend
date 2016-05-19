@@ -28,6 +28,7 @@ module.exports = {
   MemoryDatabase: require('./lib/test/MemoryDatabase'),
   repositoryInMemory: require('./lib/test/repositoryInMemory'),
 
+  geolocation: require('./lib/tools/geolocation'),
   FunctionalError: require('./lib/tools/error/FunctionalError'),
   TechnicalError: require('./lib/tools/error/TechnicalError'),
   LoggerFactory: require('./lib/tools/LoggerFactory'),
