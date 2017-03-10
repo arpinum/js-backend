@@ -2,6 +2,8 @@
 
 **js-backend** is a collection of base modules for backend applications.
 
+This project is unmaintened. New project is [@arpinum/ddd](https://github.com/arpinum-js-engine/js-engine-ddd).
+
 ## License
 
 [MIT](LICENSE)
